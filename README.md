@@ -28,7 +28,7 @@
 
 所有的功能一模一样
 
-和express唯一的差异就是把routes目录换成了controller模板。
+和express唯一的差异就是把routes目录换成了controller。
 
 ## BaseController
 
