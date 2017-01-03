@@ -13,4 +13,3 @@ module.exports = class MyController extends BaseController {
     res.send('respond with a resource');
   }
 }
-
