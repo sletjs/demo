@@ -12,5 +12,8 @@
   "dependencies": {
     "pug": "^2.0.0-beta6",
     "slet": "^1.4.5"
+  },
+  "devDependencies": {
+    "debug": "^2.6.0"
   }
 }

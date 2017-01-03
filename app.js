@@ -1,6 +1,7 @@
 'use strict'
 
 const Slet = require('slet')
+const serve = require('koa-static')
 
 const app = new Slet({
   root: __dirname,
@@ -11,5 +12,8 @@ const app = new Slet({
     extension: 'pug'
   }
 })
+
+app.use(serve('public'))
+
 
 app.start(4000) 
