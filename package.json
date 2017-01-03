@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/nodemon bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +16,7 @@
     "slet": "^1.4.7"
   },
   "devDependencies": {
-    "debug": "^2.6.0"
+    "debug": "^2.6.0",
+    "nodemon":"^1.1.10"
   }
 }
