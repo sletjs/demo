@@ -15,5 +15,6 @@ const app = new Slet({
 
 app.use(serve('public'))
 
+// server.listen(4005)
+module.exports = app
 
-app.start(4000) 
