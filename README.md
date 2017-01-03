@@ -54,6 +54,9 @@ module.exports = class MyViewController extends Slet.BaseController {
 }
 
 ```
+
+有了它才可以调用`res.render`的
+
 ## Controller写法
 
 index.js
