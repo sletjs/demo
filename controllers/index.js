@@ -11,7 +11,9 @@ module.exports = class MyController extends BaseController {
   }
   
   get (req, res) { 
-    res.render('index', { title: 'Express' });
+    // return res.json({a:1})
+    return res.render('index', { title: 'Express' });
+
   }
 }
 

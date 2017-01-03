@@ -21,7 +21,7 @@ module.exports = class MyController extends BaseController {
   }
   
   get (req, res) { 
-    res.render('index', { title: 'Express' });
+    res.send('respond with a resource');
   }
 }
 

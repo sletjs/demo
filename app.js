@@ -7,8 +7,8 @@ const app = new Slet({
   debug: true,
   auto: false,
   views:{
-    path: '/views', 
-    extension: 'jade'
+    path: 'views', 
+    extension: 'pug'
   }
 })
 
