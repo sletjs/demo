@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "debug": "^2.6.0",
-    "nodemon": "^1.1.10"
+    "nodemon": "^1.12.6"
   }
 }
