@@ -18,7 +18,7 @@
     "slet": "^1.4.7"
   },
   "devDependencies": {
-    "debug": "^2.6.0",
+    "debug": "^3.2.2",
     "nodemon": "^1.1.10"
   }
 }
